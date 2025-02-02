@@ -20,7 +20,7 @@ const SearchMedicine = () => {
 
         try {
             // Construcción de la URL con los datos del formulario
-            const response = await axios.get(`http://localhost:5000/api/medicamento`, {
+            const response = await axios.get(`https://medic-dose-app.onrender.com/api/medicamento`, {
                 params: { nombre, edad, peso }
             });
 
